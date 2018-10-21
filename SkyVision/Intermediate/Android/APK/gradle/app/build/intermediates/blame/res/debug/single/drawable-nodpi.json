@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\vr_icon.png",
+        "source": "Z:\\app\\src\\main\\res\\drawable-nodpi\\vr_icon.png"
+    },
+    {
+        "merged": "Z:\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\vr_icon_background.png",
+        "source": "Z:\\app\\src\\main\\res\\drawable-nodpi\\vr_icon_background.png"
+    }
+]
