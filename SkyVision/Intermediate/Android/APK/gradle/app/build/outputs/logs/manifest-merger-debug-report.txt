@@ -123,9 +123,9 @@ ADDED from Z:\app\src\main\AndroidManifest.xml:18:5-102
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:18:16-73
 meta-data#com.epicgames.ue4.GameActivity.bHasOBBFiles
-ADDED from Z:\app\src\main\AndroidManifest.xml:19:5-98
+ADDED from Z:\app\src\main\AndroidManifest.xml:19:5-99
 	android:value
-		ADDED from Z:\app\src\main\AndroidManifest.xml:19:75-95
+		ADDED from Z:\app\src\main\AndroidManifest.xml:19:75-96
 	android:name
 		ADDED from Z:\app\src\main\AndroidManifest.xml:19:16-74
 meta-data#com.epicgames.ue4.GameActivity.BuildConfiguration

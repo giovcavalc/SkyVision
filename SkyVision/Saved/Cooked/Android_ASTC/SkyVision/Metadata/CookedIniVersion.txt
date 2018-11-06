@@ -151,12 +151,6 @@ Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:
 Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:98=/Engine/EngineResources/M_StreamingPause
 Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:99=/Engine/EngineResources/WhiteSquareTexture
 Windows.Engine:/Script/UnrealEd.UnrealEdEngine:PackagesToBeFullyLoadedAtStartup:100=/Engine/EngineResources/GradientTexture0
-Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKPath:0=(Path="")
-Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKPath:0=(Path="")
-Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:ANTPath:0=(Path="")
-Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:JavaPath:0=(Path="")
-Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKAPILevel:0=latest
-Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKAPILevel:0=android-19
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
 Windows.Engine:URL:SaveExt:0=usa
@@ -1105,6 +1099,12 @@ Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bBuildWithH
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bDisableVerifyOBBOnStartUp:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bFullScreen:0=True
 Windows.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bGoogleVRSustainedPerformance:0=True
+Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKAPILevel:0=latest
+Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKAPILevel:0=android-19
+Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKPath:0=(Path="C/NVPACK/android-sdk-windows")
+Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKPath:0=(Path="C/NVPACK/android-ndk-r12b")
+Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:ANTPath:0=(Path="C/NVPACK/apache-ant-1.8.2")
+Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:JavaPath:0=(Path="C/NVPACK/jdk1.8.0_77")
 Windows.Engine:/Script/UnrealEd.CookerSettings:DefaultPVRTCQuality:0=1
 Windows.Engine:/Script/UnrealEd.CookerSettings:DefaultASTCQualityBySpeed:0=1
 Windows.Engine:/Script/UnrealEd.CookerSettings:DefaultASTCQualityBySize:0=3
@@ -1307,7 +1307,7 @@ Windows.Engine:PlatformCrypto:PlatformRequiresDataCrypto:0=True
 Windows.Engine:/Script/AppleARKit.AppleARKitSettings:bEnableLiveLinkForFaceTracking:0=true
 Windows.Engine:/Script/AppleARKit.AppleARKitSettings:LiveLinkPublishingPort:0=11111
 Windows.Engine:/Script/Engine.RendererSettings:r.GPUCrashDebugging:0=True
-Windows.Engine:/Script/Engine.RendererSettings:r.MobileHDR:0=True
+Windows.Engine:/Script/Engine.RendererSettings:r.MobileHDR:0=False
 Windows.Engine:/Script/Engine.RendererSettings:r.Mobile.DisableVertexFog:0=True
 Windows.Engine:/Script/Engine.RendererSettings:r.Shadow.CSM.MaxMobileCascades:0=2
 Windows.Engine:/Script/Engine.RendererSettings:r.MobileMSAA:0=1
@@ -1630,7 +1630,7 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
 Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/Pichau/Documents/Unreal Projects/SkyVision/Android_Builds")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Repositorio/SkyVision/SkyVision/Android_Builds")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled

@@ -16,7 +16,7 @@
     <meta-data android:name="com.epicgames.ue4.GameActivity.bVerifyOBBOnStartUp" android:value="false" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.bShouldHideUI" android:value="true" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.ProjectName" android:value="SkyVision" />
-    <meta-data android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles" android:value="true" />
+    <meta-data android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles" android:value="false" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.BuildConfiguration" android:value="Development" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.CookedFlavors" android:value="ASTC" />
     <meta-data android:name="com.epicgames.ue4.GameActivity.bValidateTextureFormats" android:value="true" />

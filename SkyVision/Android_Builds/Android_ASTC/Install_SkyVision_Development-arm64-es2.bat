@@ -1,6 +1,6 @@
 setlocal
 set ANDROIDHOME=%ANDROID_HOME%
-if "%ANDROIDHOME%"=="" set ANDROIDHOME=D:\NVPACK\android-sdk-windows
+if "%ANDROIDHOME%"=="" set ANDROIDHOME=C:/NVPACK/android-sdk-windows
 set ADB=%ANDROIDHOME%\platform-tools\adb.exe
 set DEVICE=
 if not "%1"=="" set DEVICE=-s %1

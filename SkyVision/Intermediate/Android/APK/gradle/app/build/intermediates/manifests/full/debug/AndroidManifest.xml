@@ -82,7 +82,7 @@
             android:value="SkyVision" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles"
-            android:value="true" />
+            android:value="false" />
         <meta-data
             android:name="com.epicgames.ue4.GameActivity.BuildConfiguration"
             android:value="Development" />
