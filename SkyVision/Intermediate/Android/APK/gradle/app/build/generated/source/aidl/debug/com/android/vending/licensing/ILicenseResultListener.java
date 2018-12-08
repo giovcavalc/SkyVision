@@ -35,17 +35,16 @@ return this;
 }
 @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
-java.lang.String descriptor = DESCRIPTOR;
 switch (code)
 {
 case INTERFACE_TRANSACTION:
 {
-reply.writeString(descriptor);
+reply.writeString(DESCRIPTOR);
 return true;
 }
 case TRANSACTION_verifyLicense:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -55,11 +54,8 @@ _arg2 = data.readString();
 this.verifyLicense(_arg0, _arg1, _arg2);
 return true;
 }
-default:
-{
+}
 return super.onTransact(code, data, reply, flags);
-}
-}
 }
 private static class Proxy implements com.android.vending.licensing.ILicenseResultListener
 {

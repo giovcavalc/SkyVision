@@ -59,17 +59,16 @@ return this;
 }
 @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
-java.lang.String descriptor = DESCRIPTOR;
 switch (code)
 {
 case INTERFACE_TRANSACTION:
 {
-reply.writeString(descriptor);
+reply.writeString(DESCRIPTOR);
 return true;
 }
 case TRANSACTION_isBillingSupported:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -83,7 +82,7 @@ return true;
 }
 case TRANSACTION_getSkuDetails:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -110,7 +109,7 @@ return true;
 }
 case TRANSACTION_getBuyIntent:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -134,7 +133,7 @@ return true;
 }
 case TRANSACTION_getPurchases:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -156,7 +155,7 @@ return true;
 }
 case TRANSACTION_consumePurchase:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -170,7 +169,7 @@ return true;
 }
 case TRANSACTION_isPromoEligible:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -184,7 +183,7 @@ return true;
 }
 case TRANSACTION_getBuyIntentToReplaceSkus:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -210,7 +209,7 @@ return true;
 }
 case TRANSACTION_getBuyIntentExtraParams:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -241,7 +240,7 @@ return true;
 }
 case TRANSACTION_getPurchaseHistory:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -270,7 +269,7 @@ return true;
 }
 case TRANSACTION_isBillingSupportedExtraParams:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -291,7 +290,7 @@ return true;
 }
 case TRANSACTION_getPurchasesExtraParams:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -320,7 +319,7 @@ return true;
 }
 case TRANSACTION_consumePurchaseExtraParams:
 {
-data.enforceInterface(descriptor);
+data.enforceInterface(DESCRIPTOR);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _arg1;
@@ -339,11 +338,8 @@ reply.writeNoException();
 reply.writeInt(_result);
 return true;
 }
-default:
-{
+}
 return super.onTransact(code, data, reply, flags);
-}
-}
 }
 private static class Proxy implements com.android.vending.billing.IInAppBillingService
 {
