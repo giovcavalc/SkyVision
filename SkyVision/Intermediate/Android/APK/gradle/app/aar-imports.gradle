@@ -1,7 +1,7 @@
 repositories {
-	maven { url uri('D:/NVPACK/android-sdk-windows/extras/android/m2repository') }
-	maven { url uri('D:/Epic/Epic Games/UE_4.19/Engine/Source/ThirdParty/Android/extras/google/m2repository') }
-	maven { url uri('D:/Epic/Epic Games/UE_4.19/Engine/Source/ThirdParty/Android/extras/android/m2repository') }
+	maven { url uri('C:/NVPACK/android-sdk-windows/extras/android/m2repository') }
+	maven { url uri('C:/Program Files/Epic Games/UE_4.19/Engine/Source/ThirdParty/Android/extras/google/m2repository') }
+	maven { url uri('C:/Program Files/Epic Games/UE_4.19/Engine/Source/ThirdParty/Android/extras/android/m2repository') }
 }
 dependencies {
 	compile 'com.google.android.gms:play-services-auth:11.0.4'
