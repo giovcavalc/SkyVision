@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="233061162317617848" name="back_button_content_description">"tilbage"</string>
+    <string msgid="2401572676578172896" name="cancel_button">"Annuller"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivér"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Du skal aktivere Google Play-tjenester, for at <ns1:g id="APP_NAME">%1$s</ns1:g> kan fungere."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivér Google Play-tjenester"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Du skal installere Google Play-tjenester, før <ns1:g id="APP_NAME">%1$s</ns1:g> kan køre på din enhed."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Hent Google Play-tjenester"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fejl i Google Play-tjenester"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> har problemer med Google Play-tjenester. Prøv igen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Opdater"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke køre, medmindre du opdaterer Google Play-tjenester."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Opdater Google Play-tjenester"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Åbn på telefonen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Log ind"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Log ind med Google"</string>
+    <string msgid="2482357845034618478" name="dialog_button_got_it">"OK"</string>
+    <string msgid="4505853433204459373" name="dialog_button_open_help_center">"ÅBN HJÆLP"</string>
+    <string msgid="4028688231551615655" name="dialog_message_incompatible_phone">"En Daydream-kompatibel telefon er påkrævet. Gå til Hjælp til Daydream for at få flere oplysninger."</string>
+    <string msgid="3560856374975640601" name="dialog_message_no_cardboard">"Hent Cardboard-appen, så du kan konfigurere brillen."</string>
+    <string msgid="7887077605817014784" name="dialog_title">"Konfigurer"</string>
+    <string msgid="4515090705573059650" name="dialog_title_incompatible_phone">"Telefonen er ikke kompatibel"</string>
+    <string msgid="2594928940370730859" name="dialog_title_vr_core_not_enabled">"Konfiguration er påkrævet"</string>
+    <string msgid="6322165810291059770" name="dialog_title_vr_core_not_installed">"Installation er påkrævet"</string>
+    <string msgid="455961049302726493" name="dialog_title_warning">"Advarsel"</string>
+    <string msgid="1966424794507569244" name="dialog_vr_core_not_enabled">"Denne app virker muligvis ikke korrekt, hvis Google VR-tjenester ikke er aktiveret. Aktivér Google VR-tjenester under Indstillinger på din telefon, inden du går videre."</string>
+    <string msgid="7122144659930752678" name="dialog_vr_core_not_installed">"Denne app virker muligvis ikke korrekt uden Google VR-tjenester. Installer Google VR-tjenester fra Google Store, inden du går videre."</string>
+    <string msgid="6145412853379876634" name="go_to_playstore_button">"Gå til Play Butik"</string>
+    <string msgid="6878752668266068283" name="go_to_vr_listeners_settings_button">"Gå til Indstillinger"</string>
+    <string msgid="5324772199357788720" name="no_browser_text">"Der er ingen browser til at åbne websitet"</string>
+    <string msgid="2306297166333705530" name="place_your_phone_into_cardboard">"Placer din telefon i Cardboard-brillen"</string>
+    <string msgid="5433369525545709510" name="place_your_viewer_into_viewer_format">"Placer din telefon i din <ns1:g id="VIEWER_NAME">%s</ns1:g>-brille"</string>
+    <string msgid="368094699078615544" name="s1">"Gem billede"</string>
+    <string msgid="4550830452390689489" name="s2">"Vil du tillade, at annoncen gemmer billedet i Galleri?"</string>
+    <string msgid="2435407834265420668" name="s3">"Acceptér"</string>
+    <string msgid="9167523597401839819" name="s4">"Afvis"</string>
+    <string msgid="1566682516266724847" name="s5">"Opret kalenderbegivenhed"</string>
+    <string msgid="5996672174517137271" name="s6">"Vil du tillade, at annoncen opretter en kalenderbegivenhed?"</string>
+    <string msgid="3719682527828378500" name="settings_button_content_description">"indstillinger"</string>
+    <string msgid="20964482303479393" name="setup_button">"Konfigurer"</string>
+    <string msgid="7856245902137004584" name="switch_viewer_action">"Skift"</string>
+    <string msgid="816514297101696447" name="switch_viewer_prompt">"Vil du skifte brille?"</string>
+</resources>
