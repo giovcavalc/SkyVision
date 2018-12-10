@@ -1,1 +1,1 @@
-../../../SkyVision/SkyVision.uproject  /Game/NivelCeu -Messaging -SessionId=7A700A6845CA3D892DFA41B72D78C898 -SessionOwner="Pichau" -SessionName="Launch On Device" -iterative
+../../../SkyVision/SkyVision.uproject  /Game/NivelCeu -Messaging -SessionId=E1428AFA4D49DE6296AA1597CD4A18AF -SessionOwner="giovcavalc" -SessionName="Launch On Device" -iterative

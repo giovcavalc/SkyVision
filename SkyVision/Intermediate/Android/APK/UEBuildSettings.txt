@@ -1,7 +1,7 @@
-NDKROOT=D:\NVPACK\android-ndk-r12b
-ANDROID_HOME=D:\NVPACK\android-sdk-windows
-ANT_HOME=D:\NVPACK\apache-ant-1.8.2
-JAVA_HOME=D:\NVPACK\jdk1.8.0_77
+NDKROOT=C:/NVPACK/android-ndk-r12b
+ANDROID_HOME=C:/NVPACK/android-sdk-windows
+ANT_HOME=C:/NVPACK/apache-ant-1.8.2
+JAVA_HOME=C:/NVPACK/jdk1.8.0_77
 NDKVersion=android-19
 SDKVersion=android-24
 bForDistribution=False
@@ -52,5 +52,9 @@ bBuildWithHiddenSymbolVisibility=false
 bDisableVerifyOBBOnStartUp=True
 bFullScreen=True
 bGoogleVRSustainedPerformance=True
+SDKPath=(Path="C:/NVPACK/android-sdk-windows")
+NDKPath=(Path="C:/NVPACK/android-ndk-r12b")
+ANTPath=(Path="C:/NVPACK/apache-ant-1.8.2")
+JavaPath=(Path="C:/NVPACK/jdk1.8.0_77")
 Arch=-arm64
 GPUArch=-es2

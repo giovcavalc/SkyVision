@@ -1,12 +1,9 @@
 Engine/GlobalShaderCache-GLSL_ES2.bin
 SkyVision/AssetRegistry.bin
-SkyVision/Content/GoogleVRPawn.uasset
-SkyVision/Content/GoogleVRPawn.uexp
 SkyVision/Content/NivelCeu.uexp
 SkyVision/Content/NivelCeu.umap
-SkyVision/Content/WidgetUI.uasset
-SkyVision/Content/WidgetUI.uexp
-SkyVision/Content/SpaceScape/Donut_O_Iluminado.uasset
-SkyVision/Content/SpaceScape/Donut_O_Iluminado.uexp
+SkyVision/Content/NivelCeu_BuiltData.uasset
+SkyVision/Content/NivelCeu_BuiltData.ubulk
+SkyVision/Content/NivelCeu_BuiltData.uexp
 Manifest_NonUFSFiles_Android.txt
 Manifest_UFSFiles_Android.txt

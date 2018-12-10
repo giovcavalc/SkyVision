@@ -281,9 +281,9 @@
                     "position": {
                         "startLine": 2,
                         "startColumn": 1,
-                        "startOffset": 54,
+                        "startOffset": 52,
                         "endColumn": 32,
-                        "endOffset": 85
+                        "endOffset": 83
                     }
                 }
             },
